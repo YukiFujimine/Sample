@@ -24,7 +24,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class Main extends JavaPlugin implements Listener {
 
   private int count;
-  List<Color> colorList = List.of(Color.RED, Color.BLUE, Color.WHITE, Color.FUCHSIA);
+  List<Color> colorList = List.of(Color.RED, Color.MAROON, Color.WHITE, Color.FUCHSIA);
 
   @Override
   public void onEnable() {
